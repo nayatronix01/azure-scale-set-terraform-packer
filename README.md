@@ -7,3 +7,6 @@ Create RG for Packer image
 Replace name RG name in packer-ubuntu-nginx.json  
 Run packer build packer-ubuntu-nginx.json
 Run Terraform apply  
+Terraform will output website and jumpbox public ip addresses  
+
+
