@@ -4,7 +4,12 @@ https://docs.microsoft.com/en-us/azure/developer/terraform/create-vm-scaleset-ne
 
 Log in to Azure  
 Create RG for Packer image    
-Replace name RG name in packer-ubuntu-nginx.json  
+Edit packer-ubuntu-nginx.json and replace:
+   resource_group_name  
+   client_id  
+   client_secret  
+   tenant_id  
+   subscription_id  
 Run packer build packer-ubuntu-nginx.json
 Run Terraform apply  
 Terraform will output website and jumpbox public ip addresses  
