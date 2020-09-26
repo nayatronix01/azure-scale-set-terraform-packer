@@ -2,10 +2,10 @@
   "builders": [{
     "type": "azure-arm",
 
-    "client_id": "",
-    "client_secret": "",
-    "tenant_id": "dfa046b6-d85a-4855-a5a0-645e257cf77c",
-    "subscription_id": "2bcc60db-6d97-4f3c-9f55-48234accf61b",
+    "client_id": "xxxxxxxxx",
+    "client_secret": "xxxxxxx",
+    "tenant_id": "xxxxxxxxx",
+    "subscription_id": "xxxxxxxxx",
     "managed_image_resource_group_name": "storage-vmss-terraform-packer-rg-eus",
     "managed_image_name": "packer-ubuntu-nginx-image",
 
