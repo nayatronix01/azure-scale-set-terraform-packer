@@ -4,7 +4,7 @@ https://docs.microsoft.com/en-us/azure/developer/terraform/create-vm-scaleset-ne
 
 Log in to Azure  
 Create RG for Packer image    
-Edit packer-ubuntu-nginx.json and replace:
+Edit packer-ubuntu-nginx.json and replace:   
    resource_group_name  
    client_id  
    client_secret  
